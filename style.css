@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fff8fb;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #d63384, #ff99cc);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffe6f2;
+}
+
+/* Sections */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d63384;
+}
+
+/* Services */
+.services {
+    background: #fff0f5;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Why Section */
+.why ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.why li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+/* Contact */
+.contact {
+    background: #ffe6f2;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #d63384;
+    color: white;
+}
